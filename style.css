@@ -1,0 +1,65 @@
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+     
+.container {
+    
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: palevioletred; weight:25px;
+    flex-direction: row-reverse;
+        
+}
+
+body{
+   
+     background-image: url("https://i.pinimg.com/736x/a0/18/7c/a0187c9b9d8e9883a4467d56039d817e.jpg"); 
+    background-repeat:no repeat;
+     background-size:cover;
+     background-position:center; 
+      /* background-color: rgb(182, 236, 218); */
+} 
+
+p { 
+    
+    font-size: 20px;
+}   
+
+
+.images-container img {
+    
+    width:25% ;
+    height: 150px;
+
+}
+.images-container {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+h2{
+    color:rgb(33, 33, 141);
+    white-space: no wrap;
+    font-size: 30px;
+
+}
+
+    
+.services {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+   /*  gap: rem; */
+}    
+
+footer{
+    background-color: palevioletred; height: 180px;
+}

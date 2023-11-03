@@ -1,0 +1,15 @@
+.photo-container {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 25px;
+    width: 20%;
+    height: 100px;
+
+}
+
+.photo-container img {
+    
+    width:10% ;
+    height: 100px;
+}
